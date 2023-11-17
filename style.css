@@ -17,11 +17,33 @@ h3 {
 }
 
 /* Header */
-header {
-  text-align: center;
+header{
+  text-align: center
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.items{
+  display: flex;
+  flex-direction: column;
+  text-align:left;
 }
 
 /* Containers */
+
+.container{
+  display:flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
 div {
   background-color: #eae2b7;
   margin: auto;
@@ -38,7 +60,7 @@ article div {
 }
 
 /* Paragraphs */
-p {
+p { 
   line-height: 1.5;
 }
 
